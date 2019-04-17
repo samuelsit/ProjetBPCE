@@ -243,6 +243,10 @@ button:focus {
   outline: 5px auto -webkit-focus-ring-color;
 }
 
+#logo {
+
+}
+
 input,
 button,
 select,
@@ -8207,6 +8211,12 @@ button.bg-dark:focus {
 .float-right {
   float: right !important;
 }
+
+.orange {
+  color : orange;
+}
+
+
 
 .float-none {
   float: none !important;
