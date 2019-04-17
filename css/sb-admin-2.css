@@ -6932,7 +6932,7 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #1cc88a !important;
+  background-color: purple !important;
 }
 
 a.bg-success:hover, a.bg-success:focus,
@@ -6952,7 +6952,7 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #f6c23e !important;
+  background-color: #ED7D31 !important;
 }
 
 a.bg-warning:hover, a.bg-warning:focus,
@@ -10834,7 +10834,7 @@ a:focus {
 }
 
 .border-left-warning {
-  border-left: 0.25rem solid #f6c23e !important;
+  border-left: 0.25rem solid #ED7D31 !important;
 }
 
 .border-left-danger {
