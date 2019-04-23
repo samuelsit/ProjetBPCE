@@ -25,7 +25,7 @@
 
   <?php
 
-  $bdd = new PDO('mysql:host=127.0.0.1; dbname=bpce', 'root', 'Samariel3010');
+  $bdd = new PDO('mysql:host=127.0.0.1; dbname=bpce', 'root', 'mathieu');
 
   $req = $bdd->prepare('SELECT * FROM tbl_name WHERE NUMR_PERS=:siret');
   $req->execute(array('siret' => $_POST['nb_siret']));
@@ -79,7 +79,7 @@
           <!-- Topbar Search -->
           <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
             <div class="input-group">
-              <input type="text" class="form-control bg-light border-0 small" placeholder="N° SIRET" aria-label="Search" aria-describedby="basic-addon2">
+              <input type="text" class="form-control bg-light border-0 small" placeholder="N° CLIENT" aria-label="Search" aria-describedby="basic-addon2">
               <div class="input-group-append">
                 <button class="btn btn-primary" type="button">
                   <i class="fas fa-search fa-sm"></i>
@@ -142,7 +142,7 @@
                   </div>
                   <div>
                     <div class="small text-gray-500">December 7, 2019</div>
-                    $290.29 has been deposited into your account!
+                    Your client's data has been updated
                   </div>
                 </a>
                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -153,7 +153,7 @@
                   </div>
                   <div>
                     <div class="small text-gray-500">December 2, 2019</div>
-                    Spending Alert: We've noticed unusually high spending for your account.
+                    Spending Alert: We've noticed unusually high spending in your client's account.
                   </div>
                 </a>
                 <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
@@ -186,7 +186,7 @@
                     <div class="status-indicator"></div>
                   </div>
                   <div>
-                    <div class="text-truncate">I have the photos that you ordered last month, how would you like them sent to you?</div>
+                    <div class="text-truncate">I have the reports that you ordered last month, how would you like them sent to you?</div>
                     <div class="small text-gray-500">Jae Chun · 1d</div>
                   </div>
                 </a>
@@ -198,16 +198,6 @@
                   <div>
                     <div class="text-truncate">Last month's report looks great, I am very happy with the progress so far, keep up the good work!</div>
                     <div class="small text-gray-500">Morgan Alvarez · 2d</div>
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60" alt="">
-                    <div class="status-indicator bg-success"></div>
-                  </div>
-                  <div>
-                    <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</div>
-                    <div class="small text-gray-500">Chicken the Dog · 2w</div>
                   </div>
                 </a>
                 <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
@@ -485,7 +475,7 @@ $rand_coh = rand(0, 100);
                 </div>
               </div>
               <div class="col-lg-6 md-4">
-                  <img src="img/chatbot.png"  style="float: right; padding-top: 80px;" class="img-thumbnail" alt="Graph 2" id="logo">
+                  <img src="img/chatbor.jpg"  style="float: right; padding-top: 60px;" class="img-thumbnail" alt="Graph 2" id="logo">
               </div>
           </div>
         </div>

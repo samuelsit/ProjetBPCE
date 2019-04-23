@@ -23,7 +23,7 @@
 
         <!-- Login Form -->
         <form method="post" action="index.php">
-          <input type="text" id="login" class="fadeIn second" name="nb_siret" placeholder="Entrez le SIRET">
+          <input type="text" id="login" class="fadeIn second" name="nb_siret" placeholder="Entrez le N° CLIENT">
           <input type="submit" class="fadeIn fourth" value="GO">
         </form>
       </div>
